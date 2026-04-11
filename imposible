@@ -1,0 +1,9 @@
+num=int(input("enter a number"))
+if num%20==0:
+ print("twist")
+ if num%15==0:
+  pass
+ if num%5==0:
+  print("fizz")
+if num%3==0:
+ print("buzz") 
