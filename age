@@ -1,0 +1,18 @@
+# Age Checker: Even or Odd
+try:
+    # 1. Take input from the user
+    age = int(input("Enter your age: "))
+
+    # 2. Check if age is reasonable
+    if age < 0:
+        print("Age cannot be negative.")
+    else:
+        # 3. Determine if Even or Odd using the modulo operator (%)
+        # If number % 2 == 0, it is even, otherwise odd
+        if age % 2 == 0:
+            print(f"{age} is an even number.")
+        else:
+            print(f"{age} is an odd number.")
+
+except ValueError:
+    print("Invalid input. Please enter a valid number.")
