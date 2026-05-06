@@ -1,0 +1,9 @@
+list=["eggs","milk","apples","bannas",]
+print (len(list))
+print (list[1:2])
+for i in list:
+ print (i)
+print(max(list))
+print(min(list))
+print (list.sort())
+print(list)

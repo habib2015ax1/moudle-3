@@ -1,0 +1,12 @@
+# create a tuple using ()
+# number tuple
+number_tuple = (10, 20, 25.75)
+print(number_tuple)
+Important links
+# Output (10, 20, 25.75)
+Students' feedback
+# string tuple
+string tuple - ("Jessa', print (string_tuple)
+"Emma", "Kelly')
+Join Apollo team
+# Output ('Jessa', 'Emma', "Kelly'
