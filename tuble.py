@@ -10,5 +10,6 @@ print (min (tuple1))
 print(tuple1+tuple2)
 print (sorted (tuple1))
 print (tuple1.count(11))
+tuple1[0]=25
 
 
