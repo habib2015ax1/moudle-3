@@ -10,3 +10,4 @@ class bus(Vehicle):
 
 school_bus=bus("school volvo",180,400)
 print("vehicle Name:", school_bus.name, "speed:",school_bus.max_speed, "mileage:", school_bus.mileage)
+#√
