@@ -1,0 +1,13 @@
+class Account:
+    def __init__(self, pin):
+        self.__pin = pin
+
+    def set_pin(self, pin):
+        self.__pin = pin
+
+    def __str__(self):
+        return "PIN: ****"
+
+a = Account(1234)
+print(a)
+a.set_pin(5678)

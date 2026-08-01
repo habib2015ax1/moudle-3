@@ -1,0 +1,14 @@
+from abc import ABC, abstractmethod
+
+class D(ABC):
+    @abstractmethod
+    def on(self): pass
+
+class L(D):
+    def on(self): print("Light")
+
+class F(D):
+    def on(self): print("Fan")
+
+L().on()
+F().on()
