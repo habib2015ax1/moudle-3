@@ -2,7 +2,7 @@ import pygame
 
 def main():
     pygame.init()
-    screen_width, screen_hight = 500,500
+    screen_width, screen_hight = 1000,1000
     screen = pygame.display.set_mode((screen_width,screen_hight))
     pygame.display.set_caption('color changing sprite')
 
@@ -17,7 +17,7 @@ def main():
     current_color = color['white']
 
     x,y = 30,30
-    sprite_width, sprite_hight = 60,60
+    sprite_width, sprite_hight = 90,90
 
     clock = pygame.time.Clock()
 
@@ -27,7 +27,7 @@ def main():
             if event.type == pygame.QUIT:
                 done = True
 
-        pressed = pygame.event.get()
+        pressed = pygame.key.get_pressed()
         if pressed[pygame.K_LEFT]: x -=3
         if pressed[pygame.K_RIGHT]: x += 3
         if pressed[pygame.K_UP]: y -= 3
@@ -55,5 +55,5 @@ def main():
 
     pygame.quit()
 
-if __name__ == "__name__":
+if __name__ == "__main__":
    main()
