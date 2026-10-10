@@ -1,13 +1,13 @@
 import pygame 
 pygame.init()
-screen = pygame.display.set_mode((400,500))
+screen = pygame.display.set_mode((1080,452))
 done=False
-image=pygame.image.load("Pygame/phone.jpg")
-image=pygame.transform.scale(image,(200,150))
+image=pygame.image.load("Pygame/image.png")
+image=pygame.transform.scale(image,(1080,452))
 while not done:
     for event in pygame.event.get():
         if event.type ==pygame.QUIT:
             done = True
-    screen.blit(image,(100,100))   
+    screen.blit(image,(0,0))   
 
     pygame.display.flip()
